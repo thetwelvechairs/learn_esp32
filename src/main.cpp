@@ -1,7 +1,5 @@
-#include <SPI.h>
+#include <Arduino.h>
 #include <fabgl.h>
-#include <lvgl.h>
-
 #include <iostream>
 
 #define SD_CS     8   // SD card select pin
