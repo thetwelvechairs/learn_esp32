@@ -22,3 +22,6 @@ Custom configs
 
 * #define TFT_SPI_WRITE_FREQUENCY 33000000
   * -- in TFTControllerGeneric.cpp
+
+* include 
+   * #define TFT_170x320 "\"TFT_172x320\" 172 320"
