@@ -42,7 +42,7 @@
 
 #define TFT_BACKGROUND_PRIMITIVE_TIMEOUT 10000  // uS
 
-#define TFT_SPI_WRITE_FREQUENCY          26000000
+#define TFT_SPI_WRITE_FREQUENCY          33000000
 #define TFT_SPI_MODE                     SPI_MODE3
 #define TFT_DMACHANNEL                   2
 
