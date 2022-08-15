@@ -13,20 +13,16 @@ Required drivers
 * MacOS http://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html
 * Windows http://www.wch-ic.com/downloads/CH341SER_ZIP.html
 
-PlatformIO Dependencies
+### PlatformIO Dependencies
 
 * adafruit/Adafruit NeoPixel@^1.10.5
 * fdivitto/FabGL@^1.0.8
 
-Custom configs
+### Custom configs
 
-* #define TFT_SPI_WRITE_FREQUENCY 33000000
-  * -- in TFTControllerGeneric.cpp
+* in TFTControllerGeneric.cpp:
+```#define TFT_SPI_WRITE_FREQUENCY 33000000```
 
-* include 
-   * #define TFT_170x320 "\"TFT_172x320\" 172 320"
    
-   
- 
- /** Modeline for TFT 170x320 */
-#define TFT_170x320 "\"TFT_172x320\" 172 320"
+* in fabglconf.h:
+```#define TFT_170x320 "\"TFT_172x320\" 172 320"```
