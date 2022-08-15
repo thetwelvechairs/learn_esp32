@@ -26,3 +26,5 @@ Required drivers
    
 * in fabglconf.h:
 ```#define TFT_170x320 "\"TFT_172x320\" 172 320"```
+and 
+```m_rotOffsetY = 34;```
