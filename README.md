@@ -25,3 +25,8 @@ Custom configs
 
 * include 
    * #define TFT_170x320 "\"TFT_172x320\" 172 320"
+   
+   
+ 
+ /** Modeline for TFT 170x320 */
+#define TFT_170x320 "\"TFT_172x320\" 172 320"
