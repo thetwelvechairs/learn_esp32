@@ -21,7 +21,7 @@ Required drivers
 ### Custom configs
 
 * in TFTControllerGeneric.cpp:
-```#define TFT_SPI_WRITE_FREQUENCY 33000000```
+```#define TFT_SPI_WRITE_FREQUENCY 27000000```
 
    
 * in fabglconf.h:
